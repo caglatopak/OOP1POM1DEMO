@@ -25,7 +25,7 @@ public class Main {
         // birlestirme islemi , getter setter ile okuama ve yazma yetkisi verir
 
         // abstraction = uygulamanin karmasikligini gizler ve daha basit arayuzler ortaya cikarir.
-        // genel kullanilan metotlar bu siniflta yer alir ve karsaiklik ortadan kalkar.
+        // genel kullanilan metotlar bu siniflta yer alir ve karsaiklik ortadan kalkar.kullaniciya yalnizca gerekli bilgileri gosterme islemidir
 
         // inheritance = miras alma= bir sinifin baska bir sinifin ozelliklerini ve metotlarini devralmasini saglar. [arent en child.
         // uygulamalarin daha sade ve okunakli olmasini saglar
@@ -71,6 +71,19 @@ public class Main {
 
         System.out.println("kopegin yeni ismi " + ilkKopegim.getIsim());
 
+        ilkKopegim.sesCikar(); // inheritance yani katilim yapildi hayvan sinifindan
+        ilkKopegim.uyku();
+
+
+
+     //nesne2
+
+
+        Kopek ikinciKopegim = new Kopek("mavi" , " labrador", 2);
+
+        ikinciKopegim.setIsim("pamuk");
+
+        System.out.println("ikinci kopegimin yeni ismi " + ikinciKopegim.getIsim());
 
 
 

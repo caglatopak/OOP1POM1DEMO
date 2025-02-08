@@ -1,8 +1,8 @@
-public class Kopek {
+public class Kopek extends Hayvan{
 
     // encapsulation in en temel ozelligi bu siniftaki degiskenlerin private
-   // olarak tanimlanmasi ve daha sonra bu degsiknelere getter ve setter methodu ile ulasilmasidir.
-
+   // olarak tanimlanmasi ve daha sonra bu degsiknelere getter ve setter methodu ile ulasilmasidir. boylece kodun guvenligi saglanmis olur
+  // extends diyerek ust sinif olan hayvan sinifina baglandik ve ortadaki methodlr bu alt sinif icinde gecerli oldu
 
        private String isim;
        private String cins;
@@ -48,9 +48,8 @@ public class Kopek {
     }
 
 
-
-
-
-
-
+    @Override
+    void sesCikar() {
+        System.out.println("hav hav ");
+    }
 }
