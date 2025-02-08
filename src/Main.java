@@ -33,6 +33,17 @@ public class Main {
         // polimorfizm = ayni isimde farkli islevlere sahip metotlar olusturmayi saglar.
         // uygulamanin girdi turlerine bagli olarak verileri farkli sekilde isleme yetenegidir. metot overloading* asiri yukleme*
 
+         // overriding = (gecersiz kilma) bir sinifa ait bir methodun o siniftan turetilmis
+        // bir sinif icerisinde ayni isimli bir metod tanimlayarak bu methodun temel siniftaki metodun yerine gecirmeye denir
+
+        // super/ana sinifta bulunan ayni isimli metotlara erisilebilir
+        // super/ana sinif constructor/yapicicisina erisilebilir
+        // super/ana sinifta bulunan farkli degiskenlere erisilebilir
+
+        // interface / arayuz :  soyutlama polimorfizm ve coklu katilim elde etmek icin kullanilir interface ler sozlesmeler gibidir.
+
+
+
 
 
         // avantajlari=
@@ -63,7 +74,8 @@ public class Main {
 */
 
    //nesne1
-    Kopek ilkKopegim= new Kopek("suzi", "golden", 10);
+
+         Kopek ilkKopegim= new Kopek("suzi", "golden", 10);
 
         System.out.println(" kopegimin adi " + ilkKopegim.getIsim() + " -cinsi "+ ilkKopegim.getCins() + " -yasi " + ilkKopegim.getYas());
 
@@ -86,21 +98,12 @@ public class Main {
         System.out.println("ikinci kopegimin yeni ismi " + ikinciKopegim.getIsim());
 
 
+   //nesne3
 
+      Kedi yeniKedi = new Kedi("kirmizi", "tekir", 3);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+      yeniKedi.sesCikar();   // ayni isimli methodlar kullanarak farkli islemler gercelestirmek polymorfizm dir
+      yeniKedi.uyku();
 
 
     }

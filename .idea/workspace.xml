@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8c9c556-36e9-4159-83c1-08c89364d399" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hayvan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kedi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hayvan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hayvan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kopek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kopek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -48,6 +49,11 @@
     "onboarding.tips.debug.path": "C:/Users/31626/IdeaProjects/Oop_Pom_Demo/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Hayvan" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
